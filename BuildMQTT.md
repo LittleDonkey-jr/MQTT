@@ -42,7 +42,7 @@ gcc mqtt.c -o mqtt -I /usr/local/include/ -lpaho-mqtt3a
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-#define  SERVERIP "47.114.90.143"  //换成你自己的服务器
+#define  SERVERIP "xx.xx.xx.xx"  //换成你自己的服务器
 #define Clientid "hs5c1uXVkUt.Smart_home_0.0.1"    //这个随便写
 #define Subtopic "/pub"
 #define Pubtopic "/sensor/dht11/0"
